@@ -12,18 +12,5 @@
             "sizes": "192x192",
             "type": "image/png"
         }
-    ],
-    "screenshots": [
-        {
-            "src": "./static/screenshot-wide.png",
-            "sizes": "320x320",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "./static/screenshot-2.png",
-            "sizes": "320x320",
-            "type": "image/png"
-        }
     ]
 }
