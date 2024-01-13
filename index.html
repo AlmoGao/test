@@ -103,16 +103,17 @@
 </div>
   `;
       }
-      if (navigator.serviceWorker != null) {
-        navigator.serviceWorker
-          .register("./sw.js")
-          .then(function (registration) {
-            console.log("Registered events at scope: ", registration.scope);
-          });
-      }
+      // if (navigator.serviceWorker != null) {
+      //   navigator.serviceWorker
+      //     .register("./sw.js")
+      //     .then(function (registration) {
+      //       console.log("Registered events at scope: ", registration.scope);
+      //     });
+      // }
       var deferredPrompt;
 
       window.addEventListener("beforeinstallprompt", function (e) {
+        console.error('>???')
         initPWA();
         deferredPrompt = e;
         e.preventDefault();
