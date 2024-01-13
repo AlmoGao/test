@@ -15,7 +15,12 @@
     ],
     "screenshots": [
         {
-            "src": "./static/1703135556481-Crazy_777_Slots.png",
+            "src": "./static/screenshot-1.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./static/screenshot-2.png",
             "sizes": "192x192",
             "type": "image/png"
         }
