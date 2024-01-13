@@ -17,7 +17,8 @@
         {
             "src": "./static/screenshot-wide.png",
             "sizes": "320x320",
-            "type": "image/png"
+            "type": "image/png",
+            "form_factor": "wide"
         },
         {
             "src": "./static/screenshot-2.png",
