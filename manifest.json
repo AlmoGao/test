@@ -15,13 +15,13 @@
     ],
     "screenshots": [
         {
-            "src": "./static/screenshot-1.png",
-            "sizes": "192x192",
+            "src": "./static/screenshot-1-wide.png",
+            "sizes": "320x320",
             "type": "image/png"
         },
         {
             "src": "./static/screenshot-2.png",
-            "sizes": "192x192",
+            "sizes": "320x320",
             "type": "image/png"
         }
     ]
